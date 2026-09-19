@@ -65,19 +65,21 @@ export default function Home() {
           <p className="home__footnote">把生活中的每一張照片，變成你的專屬教材！</p>
         </section>
 
-        {/* 右側：情境照片佔位區 */}
-        <section className="home__right" aria-label="產品情境示意（圖片待替換為正式素材）">
-          <div className="home__hero-image-placeholder">
-            <span>【正式情境照片待補】</span>
-          </div>
+        {/* 右側：情境照片 */}
+        <section className="home__right" aria-label="產品情境示意：咖啡廳窗邊，貓、雛菊、拿鐵、蛋糕、書與手機">
+          <img
+            src="/assets/hero-cafe.jpg"
+            alt="咖啡廳窗邊情境：貓咪趴在桌上，一旁有雛菊花瓶、拿鐵咖啡、起司蛋糕、疊放的書本與手機，窗外是山景與湖景"
+            className="home__hero-image"
+          />
           {/* 互動標籤範例（僅示意排版，實際互動邏輯於Task 09完成頁實作） */}
-          <div className="home__hotspot-tag" style={{ top: '18%', left: '18%' }}>cat</div>
-          <div className="home__hotspot-tag" style={{ top: '15%', right: '32%' }}>flower</div>
-          <div className="home__hotspot-tag" style={{ top: '58%', left: '8%' }}>book</div>
-          <div className="home__hotspot-tag" style={{ bottom: '20%', left: '44%' }}>cake</div>
-          <div className="home__hotspot-tag" style={{ bottom: '15%', right: '10%' }}>phone</div>
+          <div className="home__hotspot-tag" style={{ top: '29%', left: '19%' }}>cat</div>
+          <div className="home__hotspot-tag" style={{ top: '13%', left: '41%' }}>flower</div>
+          <div className="home__hotspot-tag" style={{ top: '53%', right: '5%' }}>book</div>
+          <div className="home__hotspot-tag" style={{ top: '71%', left: '8%' }}>cake</div>
+          <div className="home__hotspot-tag" style={{ bottom: '11%', right: '19%' }}>phone</div>
 
-          <div className="home__word-card-demo">
+          <div className="home__word-card-demo" style={{ top: '46%', left: '37%', bottom: 'auto', right: 'auto' }}>
             <div className="home__word-card-demo-head">
               <span className="home__word-card-demo-icon">☕</span>
               <div>

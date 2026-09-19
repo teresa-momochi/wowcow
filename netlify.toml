@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# SPA路由設定：不管使用者打開哪個路徑，都導回index.html讓React Router接手
+# 這樣重新整理頁面、或直接分享內部頁面網址，才不會出現404
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

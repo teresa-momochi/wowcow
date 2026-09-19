@@ -28,6 +28,12 @@ wowcow/
 - Task 02：首頁（對應設計稿 01歡迎頁.png）✅
   - ⚠️ 待補正式資產：WOWCOW Logo原始檔、右側情境照片、精確色票
   - 目前這兩處使用明顯標示的佔位內容，不是最終樣式
+- 補充：Netlify部署設定（netlify.toml）✅
+- 補充：正式Logo資產（public/assets/logo-icon.png、logo-full.png）✅
+  - 來源：Amy提供的品牌規範圖，經去背裁切處理，非原始向量檔
+  - TopNav已改用真實牛頭圖示
+- 補充：首頁咖啡廳情境照片（public/assets/hero-cafe.jpg）✅
+  - 六個hotspot標籤（cat/flower/coffee/book/cake/phone）位置已依實際照片物件座標校正
 
 ## 資料庫Schema
 
