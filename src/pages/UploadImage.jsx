@@ -56,18 +56,19 @@ export default function UploadImage() {
       <FlowTopBar step={1} backTo="/" />
 
       <main className="upload-card-wrap">
-        <div className="upload-card">
+        <div className="upload-card-frame">
+          <p className="upload-card__note">
+            一張照片，
+            <br />
+            開啟無限的學習可能！
+          </p>
+          <div className="upload-card">
           <div className="upload-card__head">
             <div>
               <h1 className="upload-card__title">
                 選擇<span className="upload-card__title--pink">一張圖片</span>
               </h1>
               <p className="upload-card__subtitle">可以用手機照片，也可以用電腦裡的圖片檔。</p>
-            </div>
-            <div className="upload-card__note">
-              一張照片，
-              <br />
-              開啟無限的學習可能！
             </div>
           </div>
 
@@ -132,6 +133,7 @@ export default function UploadImage() {
           >
             下一步
           </button>
+          </div>
         </div>
       </main>
     </div>
