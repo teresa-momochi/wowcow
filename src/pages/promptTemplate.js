@@ -4,7 +4,7 @@
 export const STYLE_OPTIONS = [
   { id: 'realistic', label: '寫實照片', thumb: '/assets/style-realistic.png' },
   { id: 'handdrawn', label: '手繪風格', thumb: '/assets/style-handdrawn.png' },
-  { id: 'illustration', label: '插畫風格', thumb: '/assets/style-illustration.png' },
+  { id: 'pencil', label: '鉛筆素描', thumb: '/assets/style-pencil.png' },
   { id: 'watercolor', label: '水彩風格', thumb: '/assets/style-watercolor.png' },
 ]
 
