@@ -117,10 +117,10 @@ export default function UploadImage() {
           </div>
 
           <div className="upload-extra-row">
-            <button type="button" className="upload-link" onClick={() => {}}>
+            <button type="button" className="upload-link" onClick={() => navigate('/ai-helper/step1')}>
               ✨ 沒有合適的圖片？用 AI 生圖小幫手
             </button>
-            <button type="button" className="upload-outline-btn" onClick={() => {}}>
+            <button type="button" className="upload-outline-btn" onClick={() => navigate('/ai-helper/step1')}>
               📖 開啟 AI 生圖教學
             </button>
           </div>
