@@ -1,0 +1,42 @@
+.flow-topbar {
+  position: relative;
+  z-index: 5;
+}
+
+.flow-topbar__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 8px 32px 0;
+}
+
+.flow-topbar__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 999px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  flex-shrink: 0;
+}
+
+.flow-topbar__back:hover {
+  background: #fff;
+}
+
+.flow-topbar__spacer {
+  flex-shrink: 0;
+  width: 92px;
+}
+
+@media (max-width: 640px) {
+  .flow-topbar__spacer { display: none; }
+  .flow-topbar__row { padding: 8px 16px 0; }
+}
