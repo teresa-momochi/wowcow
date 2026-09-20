@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { useNavigate, useOutletContext } from 'react-router-dom'
 import { STYLE_OPTIONS, SUGGESTED_SCENES, buildPrompt } from './promptTemplate'
-import '../../pages/ai-helper/AiHelperCommon.css'
+import './AiHelperCommon.css'
 import './Step1.css'
 
 const PLACEHOLDERS = ['筆電', '化妝品', '台燈', '香水', '鏡子', '植物', '馬克杯', '手機', '鍵盤', '書本']

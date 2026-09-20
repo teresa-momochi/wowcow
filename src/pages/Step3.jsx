@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { useNavigate, useOutletContext } from 'react-router-dom'
-import '../../pages/ai-helper/AiHelperCommon.css'
+import './AiHelperCommon.css'
 import './Step3.css'
 
 const STEPS = [

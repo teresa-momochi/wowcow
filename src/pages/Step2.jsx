@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useNavigate, useOutletContext } from 'react-router-dom'
 import { STYLE_OPTIONS } from './promptTemplate'
-import '../../pages/ai-helper/AiHelperCommon.css'
+import './AiHelperCommon.css'
 import './Step2.css'
 
 const GEMINI_URL = 'https://gemini.google.com/app'
