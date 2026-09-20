@@ -53,21 +53,11 @@
 .gen-left__file {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   background: rgba(255, 255, 255, 0.85);
   border-radius: 14px;
   padding: 12px 16px;
   font-size: 13px;
   color: var(--wowcow-text-gray, #666);
-}
-
-.gen-left__file button {
-  background: none;
-  border: none;
-  color: var(--wowcow-purple, #8b7cf6);
-  font-weight: 700;
-  font-size: 13px;
-  cursor: pointer;
 }
 
 .gen-right {

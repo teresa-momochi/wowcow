@@ -58,9 +58,6 @@ export default function AIGenerating() {
           </div>
           <div className="gen-left__file">
             <span>🖼️ {imageName || '我的圖片.jpg'}</span>
-            <button type="button" onClick={() => navigate('/upload')}>
-              🔄 重新選擇圖片
-            </button>
           </div>
         </section>
 
