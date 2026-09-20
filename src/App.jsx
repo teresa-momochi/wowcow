@@ -3,11 +3,11 @@ import Home from './pages/Home'
 import UploadImage from './pages/UploadImage'
 import SelectMode from './pages/SelectMode'
 import AIGenerating from './pages/AIGenerating'
-import AiHelperFlow from './pages/ai-helper/AiHelperFlow'
-import Step1 from './pages/ai-helper/Step1'
-import Step2 from './pages/ai-helper/Step2'
-import Step3 from './pages/ai-helper/Step3'
-import Step4 from './pages/ai-helper/Step4'
+import AiHelperFlow from './pages/AiHelperFlow'
+import Step1 from './pages/Step1'
+import Step2 from './pages/Step2'
+import Step3 from './pages/Step3'
+import Step4 from './pages/Step4'
 
 /**
  * 路由入口。
