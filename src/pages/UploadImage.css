@@ -92,7 +92,7 @@
   position: relative;
   width: 100%;
   max-width: 780px;
-  margin-top: 78px;
+  margin-top: 175px;
 }
 
 .upload-card {
@@ -111,16 +111,18 @@
 /* 手寫風提示：獨立飄在卡片右上方外側，貼近正式設計稿呈現方式 */
 .upload-card__note {
   position: absolute;
-  top: -18px;
+  top: 20px;
   right: 8px;
   margin: 0;
   font-family: 'Segoe Print', 'Comic Sans MS', var(--wowcow-hand-font, cursive), sans-serif;
-  font-size: 24px;
-  line-height: 1.45;
+  font-size: 48px;
+  line-height: 1.4;
   color: #3d3d7a;
   text-align: right;
-  transform: rotate(-2deg);
+  transform: rotate(-10deg);
+  transform-origin: bottom right;
   z-index: 3;
+  white-space: nowrap;
 }
 
 .upload-card__note::after {
@@ -138,6 +140,8 @@
     position: static;
     text-align: left;
     transform: none;
+    font-size: 20px;
+    white-space: normal;
     margin: 0 0 12px;
   }
   .upload-card-frame { margin-top: 12px; }
